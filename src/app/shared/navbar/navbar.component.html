@@ -1,0 +1,105 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-default" style="background-color: #ffffff !important; padding: 0.5em 0.5em !important;;">
+  <div class="container">
+    <img class="navbar-brand"src="./assets/img/brand/logo.png" routerLink="/home" style="width:200px">
+
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+              <a class="nav-link-inner--text" [routerLink]="['/home']">Accueil</a>
+            </a>
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+              <a class="nav-link-inner--text"[routerLink]="['/service']">Services</a>
+            </a>
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+              <a class="nav-link-inner--text" [routerLink]="['/sav']" >S.A.V</a>
+            </a>
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+              <a class="nav-link-inner--text" [routerLink]="['/partenaire']" >Partenaires</a>
+            </a>
+            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+              <a class="nav-link-inner--text" [routerLink]="['/contact']" >Contact</a>
+            </a>
+          </div>
+          <div class="col-7 collapse-close">
+            <button type="button" class="btn-neutral" (click)="isCollapsed = !isCollapsed"
+                    [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              Fermer
+            </button>
+          </div>
+          </div>
+      </div>
+
+    </div>
+
+
+      <!--
+        <ul>
+        <li class="nav-item" ngbDropdown placement="bottom-right">
+          <a class="nav-link nav-link-icon no-caret" id="navbar-default_dropdown_1" ngbDropdownToggle>
+          <img src="assets/img/nav.png" style="width: 60px; margin-top: 10px">
+
+          </a>
+          <div class="dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1" ngbDropdownMenu>
+            <a class="dropdown-item" routerLink="/home">Accueil</a>
+            <a class="dropdown-item" routerLink="/service">Services</a>
+            <a class="dropdown-item" routerLink="sav">S.A.V</a>
+            <a class="dropdown-item" routerLink="/partenaire">Partenaire</a>
+            <a class="dropdown-item" routerLink="/contact">Contact</a>
+          </div>
+        </li>
+      </ul>
+      -->
+
+    <div class="collapse navbar-collapse" id="navbar-default">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a href="javascript:void(0)">
+              <img src="./assets/img/brand/blue.png">
+            </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/home">
+          Accueil
+          </a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/service">
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/sav">
+            S.A.V
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/partenaire">
+            Partenaire
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
