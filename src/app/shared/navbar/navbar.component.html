@@ -1,7 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-default" style="background-color: #ffffff !important; padding: 0.5em 0.5em !important;;">
-  <div class="container">
-    <img class="navbar-brand"src="./assets/img/brand/logo.png" routerLink="/home" style="width:200px">
+<br>
+<section id="boxes_nav">
+  <p id="boxparag" class="col-lg-5 mb-4 mb-lg-3 small" style=" font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;  float: right; color: #2F9CF4 !important;">
+    EQUIPEMENT HOSPITALIER <br>
+    APPAREILS POUR LA MÉDECINE ET LA CHIRURGIE<br>
+    FOURNITURES GÉNÉRALES POUR LABORATOIRES <br> APPAREILS ET ACCESSOIRES - PRODUITS CHIMIQUES
+  </p>
 
+    <img  style="margin-right: auto; padding-bottom: 20px;" src="assets/img/brand/yearstest.png" >
+
+  <img  id="bigbax"src="./assets/img/brand/logo%20medico%20grand.png" style="padding-right: 15px; width: 300px; height: 100px">
+
+</section>
+<nav class="navbar navbar-expand-lg navbar-light bg-default" style="background-color: #2f9cf4 !important;">
+  <div class="container">
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
             [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
       <span class="navbar-toggler-icon"></span>
@@ -34,27 +45,7 @@
           </div>
           </div>
       </div>
-
     </div>
-
-
-      <!--
-        <ul>
-        <li class="nav-item" ngbDropdown placement="bottom-right">
-          <a class="nav-link nav-link-icon no-caret" id="navbar-default_dropdown_1" ngbDropdownToggle>
-          <img src="assets/img/nav.png" style="width: 60px; margin-top: 10px">
-
-          </a>
-          <div class="dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1" ngbDropdownMenu>
-            <a class="dropdown-item" routerLink="/home">Accueil</a>
-            <a class="dropdown-item" routerLink="/service">Services</a>
-            <a class="dropdown-item" routerLink="sav">S.A.V</a>
-            <a class="dropdown-item" routerLink="/partenaire">Partenaire</a>
-            <a class="dropdown-item" routerLink="/contact">Contact</a>
-          </div>
-        </li>
-      </ul>
-      -->
 
     <div class="collapse navbar-collapse" id="navbar-default">
       <div class="navbar-collapse-header">
@@ -71,21 +62,35 @@
           </div>
         </div>
       </div>
-      <ul class="navbar-nav ml-lg-auto">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center" >
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/home">
           Accueil
           </a>
-
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/service">
-            Services
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
+            <span class="nav-link-inner--text" style="color: white">Equipements</span>
           </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="dropdown-item">Instrumation</a>
+            <a [routerLink]="['/user-profile']" class="dropdown-item">Materiel</a>
+            <a [routerLink]="['/login']" class="dropdown-item">Consomable</a>
+            <a [routerLink]="['/login']" class="dropdown-item">Fabrication Tunisienne</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
+            <span class="nav-link-inner--text" style="color: white">Services</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/service']" class="dropdown-item">Notre activite</a>
+            <a [routerLink]="['/sav']" class="dropdown-item">SAV</a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/sav">
-            S.A.V
+          <a class="nav-link nav-link-icon"  routerLink="/home">
+            Liens utiles
           </a>
         </li>
         <li class="nav-item">
@@ -98,6 +103,16 @@
           <a class="nav-link nav-link-icon"  routerLink="/contact">
             Contact
           </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
+            <span class="nav-link-inner--text" style="color: white">Telecharger</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="dropdown-item">MEDICO</a>
+            <a [routerLink]="['/user-profile']" class="dropdown-item">Partenaires</a>
+
+          </div>
         </li>
       </ul>
     </div>

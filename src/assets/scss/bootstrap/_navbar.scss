@@ -21,7 +21,7 @@
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
-  padding: $navbar-padding-y $navbar-padding-x;
+
 
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properties so that content nested within behave properly.
@@ -157,7 +157,8 @@
 
         .navbar-nav {
           flex-direction: row;
-
+          padding-right: 30px;
+          padding-left: 30px;
           .dropdown-menu {
             position: absolute;
           }
@@ -206,7 +207,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: #ffffff;
 
       @include hover-focus {
         color: $navbar-light-hover-color;

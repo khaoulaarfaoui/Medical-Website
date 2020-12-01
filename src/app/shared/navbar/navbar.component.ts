@@ -53,4 +53,8 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
+
+    selectChangeHandler($event: Event) {
+        
+    }
 }

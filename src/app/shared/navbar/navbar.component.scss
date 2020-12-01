@@ -1,0 +1,10 @@
+#boxes_nav{
+  display: flex; /*activer flex*/
+  justify-content: space-between; /*  around motie de l'espace entre (premier, dernier) container
+                                        1 between between the boxes */
+}
+
+#boxes_nav:nth-child(1) {
+margin-left: 50px;
+
+}

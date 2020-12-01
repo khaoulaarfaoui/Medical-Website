@@ -23,6 +23,7 @@ export class LoginComponent implements OnInit {
    ad = this.adr.bold();
    suj = 'Sujet: ';
    sj = this.suj.bold();
+   sent = false;
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
@@ -46,7 +47,7 @@ export class LoginComponent implements OnInit {
     if (contactForm.valid) {
       const email = contactForm.value;
       const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      this.http.post('https://formspree.io/f/mleolvql',
+      this.http.post('https://formspree.io/f/mwkwqjqy',
           { Nom : email.name, Email: email.email, Etablissement: email.etablissement,
             Fonction: email.fonction, Addresse: email.addresse,  Message: email.messages
           },
@@ -55,6 +56,7 @@ export class LoginComponent implements OnInit {
             console.log(response);
           }
       );
+   this.sent = true;
     }
   }
 

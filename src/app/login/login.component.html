@@ -81,7 +81,10 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-badge"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Nom" name="name" ngModel required #name="ngModel" type="text" (focus)="focus2=true" (blur)="focus2=false">
+                    <input class="form-control" placeholder="Nom" name="name" ngModel  #name="ngModel" type="text" (focus)="focus2=true" (blur)="focus2=false" required>
+                  </div>
+                  <div class="alert alert-danger" *ngIf="name.invalid && name.touched">
+                    Le champs nom est obligatoire
                   </div>
                 </div>
                 <div class="form-group mb-3" [ngClass]="{'focused':focus3===true}">
@@ -89,7 +92,11 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-shop"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Etablissement" name="etablissement" ngModel required #etablissement="ngModel" type="text" (focus)="focus3=true" (blur)="focus3=false">
+                    <input class="form-control" placeholder="Etablissement" name="etablissement" ngModel  #etablissement="ngModel" type="text" (focus)="focus3=true" (blur)="focus3=false" required>
+
+                  </div>
+                  <div class="alert alert-danger" *ngIf="etablissement.invalid && etablissement.touched">
+                    Le champs etablissement est obligatoire
                   </div>
                 </div>
                 <div class="form-group mb-3" [ngClass]="{'focused':focus4===true}">
@@ -97,7 +104,10 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-badge"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Fonction" name="fonction" ngModel required #fonction="ngModel" type="text" (focus)="focus4=true" (blur)="focus4=false">
+                    <input class="form-control" placeholder="Fonction" name="fonction" ngModel  #fonction="ngModel" type="text" (focus)="focus4=true" (blur)="focus4=false" required>
+                  </div>
+                  <div class="alert alert-danger" *ngIf="fonction.invalid && fonction.touched">
+                    Le champs fonction est obligatoire
                   </div>
                 </div>
                 <div class="form-group mb-3" [ngClass]="{'focused':focus5===true}">
@@ -105,8 +115,10 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-square-pin"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Addresse" type="text" name="addresse" ngModel required #addresse="ngModel" (focus)="focus5=true" (blur)="focus5=false">
-
+                    <input class="form-control" placeholder="Adresse" type="text" name="addresse" ngModel  #addresse="ngModel" (focus)="focus5=true" (blur)="focus5=false" required>
+                  </div>
+                  <div class="alert alert-danger" *ngIf="addresse.invalid && addresse.touched">
+                    Le champs addresse est obligatoire
                   </div>
                 </div>
                 <div class="form-group mb-3" [ngClass]="{'focused':focus6===true}">
@@ -114,7 +126,12 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" placeholder="text" type="email" name="email" ngModel required #email="ngModel" (focus)="focus6=true" (blur)="focus6=false">
+                    <input class="form-control" placeholder="Email" type="email" name="email" ngModel required #email="ngModel"   pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"
+                           (focus)="focus6=true" (blur)="focus6=false" >
+                  </div>
+                  <div>
+                    <span class="alert alert-danger" *ngIf="email.touched && email.errors?.required">Le champs email est obligatoire</span>
+                    <span class="alert alert-danger" *ngIf="email.touched && email.errors?.pattern">un email doit etre sous la forme de xyz@xyz.com</span>
                   </div>
                 </div>
                   <div class="form-group mb-3" [ngClass]="{'focused':focus1===true}">
@@ -122,21 +139,20 @@
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="ni ni-single-copy-04"></i></span>
                       </div>
-                      <textarea class="form-control" placeholder="Message"  name="messages" ngModel required #messages="ngModel" (focus)="focus1=true" (blur)="focus1=false"> </textarea>
+                      <textarea class="form-control" placeholder="Message"  name="messages" ngModel required #messages="ngModel" (focus)="focus1=true" (blur)="focus1=false" > </textarea>
                     </div>
                 </div>
                 <br>
                 <div class="row mt-3">
                   <div class="col-6">
-                    <button class="btn-outline-warning" (click)="reset(contactForm)" >Annuler</button>
+                    <button class="btn-outline-warning" (click)="reset(contactForm)">Annuler</button>
                   </div>
                   <div class="col-6 text-right">
-
-                      <button class="btn-neutral" type="submit">Send</button>
-
+                      <button class="btn-neutral" type="submit" [disabled]="!contactForm.valid">Send</button>
                   </div>
                 </div>
               </form>
+            <div class="alert alert-success alert-dismissible" *ngIf="sent">Sent</div>
             </div>
           </div>
           <br>
