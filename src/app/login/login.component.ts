@@ -1,6 +1,10 @@
+/// <reference types="@types/googlemaps" />
+
+import {MapsAPILoader} from '@agm/core';
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
+
 
 @Component({
   selector: 'app-login',
@@ -8,6 +12,9 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+    title = 'My first AGM project';
+    lat = 36.813190;
+    lng = 10.173100;
   focus;
   focus1;
   focus2;
@@ -24,7 +31,8 @@ export class LoginComponent implements OnInit {
    suj = 'Sujet: ';
    sj = this.suj.bold();
    sent = false;
-  constructor(private http: HttpClient) { }
+    coordinates;
+  constructor(private http: HttpClient, private mapsAPILoader: MapsAPILoader) { }
 
   ngOnInit() {
   }
@@ -59,7 +67,6 @@ export class LoginComponent implements OnInit {
    this.sent = true;
     }
   }
-
   reset(contactForm: NgForm) {
     contactForm.reset();
   }

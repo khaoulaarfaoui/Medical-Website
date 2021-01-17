@@ -8,6 +8,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
+import {LienUtilsComponent} from './lien-utils/lien-utils.component';
+import {UnderconstructionComponent} from './underconstruction/underconstruction.component';
+import {CarriereComponent} from './carriere/carriere.component';
+import {EventsComponent} from './events/events.component';
 
 const routes: Routes = [
     { path: 'home',             component: HomeComponent },
@@ -15,7 +19,11 @@ const routes: Routes = [
     { path: 'sav',           component: SignupComponent },
     { path: 'partenaire',          component: LandingComponent },
     { path: 'contact',          component: LoginComponent },
-    { path: '', component: HomeComponent  }
+    { path: 'jobs',          component: CarriereComponent },
+    { path: 'events',          component: EventsComponent },
+    { path: '', component: HomeComponent  },
+    { path: 'lienUtils', component: LienUtilsComponent  },
+    { path: 'underconstruction', component: UnderconstructionComponent  }
 ];
 
 @NgModule({

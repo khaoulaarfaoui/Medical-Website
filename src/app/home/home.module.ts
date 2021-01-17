@@ -19,7 +19,7 @@ import { SectionsModule } from '../sections/sections.module';
         NgbCarouselModule
     ],
     declarations: [ HomeComponent ],
-    exports:[ HomeComponent ],
+    exports: [ HomeComponent ],
     providers: []
 })
 export class HomeModule { }

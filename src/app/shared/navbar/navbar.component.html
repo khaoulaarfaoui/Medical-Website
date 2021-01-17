@@ -1,120 +1,98 @@
+<!--navbar component-->
+<nav class="navbar navbar-expand-lg">
+  <img  id="head-image" src="./assets/img/brand/MEDICO%20ENTETE.jpg">
+  <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
+          [attr.aria-expanded]="!isNavbarCollapsed" aria-controls="#navbar_local">
+    <span class="fa fa-reorder" style="color:#53ba52; font-size:28px;"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbar_local" [ngbCollapse]="isNavbarCollapsed" >
+    <ul class="navbar-nav navbar-nav-hover">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/jobs">Carriere</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/events">Evenement</a>
+      </li>
+      <li class="nav-item">
+
+        <a class="nav-link" href="https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="assets/img/virus.png"> Infos de sécurité liées au COVID-19</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="flag-icon flag-icon-tn flag-icon-squared"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+        <span class="flag-icon flag-icon-gb flag-icon-squared"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+        <span class="flag-icon flag-icon-fr flag-icon-squared"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <br>
-<section id="boxes_nav">
-  <p id="boxparag" class="col-lg-5 mb-4 mb-lg-3 small" style=" font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;  float: right; color: #2F9CF4 !important;">
-    EQUIPEMENT HOSPITALIER <br>
-    APPAREILS POUR LA MÉDECINE ET LA CHIRURGIE<br>
-    FOURNITURES GÉNÉRALES POUR LABORATOIRES <br> APPAREILS ET ACCESSOIRES - PRODUITS CHIMIQUES
-  </p>
-
-    <img  style="margin-right: auto; padding-bottom: 20px;" src="assets/img/brand/yearstest.png" >
-
-  <img  id="bigbax"src="./assets/img/brand/logo%20medico%20grand.png" style="padding-right: 15px; width: 300px; height: 100px">
-
-</section>
-<nav class="navbar navbar-expand-lg navbar-light bg-default" style="background-color: #2f9cf4 !important;">
-  <div class="container">
-    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
-            [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
-      <span class="navbar-toggler-icon"></span>
+<br>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" >
+    <button class="navbar-toggler"  (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="#collapse_target">
+      <span class="fa fa-reorder" style="color:#53ba52; font-size:28px;"></span>
     </button>
-    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
-      <div class="navbar-collapse-header">
-        <div class="row">
-          <div class="col-6 collapse-brand">
-            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-              <a class="nav-link-inner--text" [routerLink]="['/home']">Accueil</a>
-            </a>
-            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-              <a class="nav-link-inner--text"[routerLink]="['/service']">Services</a>
-            </a>
-            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-              <a class="nav-link-inner--text" [routerLink]="['/sav']" >S.A.V</a>
-            </a>
-            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-              <a class="nav-link-inner--text" [routerLink]="['/partenaire']" >Partenaires</a>
-            </a>
-            <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-              <a class="nav-link-inner--text" [routerLink]="['/contact']" >Contact</a>
-            </a>
-          </div>
-          <div class="col-7 collapse-close">
-            <button type="button" class="btn-neutral" (click)="isCollapsed = !isCollapsed"
-                    [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
-              Fermer
-            </button>
-          </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar-default">
-      <div class="navbar-collapse-header">
-        <div class="row">
-          <div class="col-6 collapse-brand">
-            <a href="javascript:void(0)">
-              <img src="./assets/img/brand/blue.png">
-            </a>
-          </div>
-          <div class="col-6 collapse-close">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-
-            </button>
-          </div>
-        </div>
-      </div>
+  <div class="collapse navbar-collapse" id="collapse_target" [ngbCollapse]="isCollapsed">
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center" >
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/home">
-          Accueil
+            Accueil
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
-            <span class="nav-link-inner--text" style="color: white">Equipements</span>
+          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
+            Domaines <span class="caret"></span>
           </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">Instrumation</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Materiel</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Consomable</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Fabrication Tunisienne</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
-            <span class="nav-link-inner--text" style="color: white">Services</span>
-          </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/service']" class="dropdown-item">Notre activite</a>
-            <a [routerLink]="['/sav']" class="dropdown-item">SAV</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/home">
-            Liens utiles
-          </a>
+          <ul class="dropdown-menu" aria-labelledby="any">
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://www.medicoinst.com/index.htm" class="dropdown-item">Instrumentation</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.karlstorz.com/fr/fr/laparoscopy.htm" class="dropdown-item">Coelioscopie </a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="" class="dropdown-item">Consommable</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">Fabrication Tunisienne</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/partenaire">
             Partenaire
           </a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/contact">
-            Contact
+          <a class="nav-link nav-link-icon"  routerLink="/sav">
+            SAV
           </a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon" data-toggle="dropdown" role="button">
-            <span class="nav-link-inner--text" style="color: white">Telecharger</span>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/lienUtils">
+            Liens utiles
           </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">MEDICO</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Partenaires</a>
+        </li>
 
-          </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
+            Telecharger <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">MEDICO </a> </li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon"  routerLink="/contact">
+            Nous Contact
+          </a>
         </li>
       </ul>
     </div>
-  </div>
 </nav>
+

@@ -157,8 +157,8 @@
 
         .navbar-nav {
           flex-direction: row;
-          padding-right: 30px;
-          padding-left: 30px;
+          padding-right: 0px;
+          padding-left: 15rem;
           .dropdown-menu {
             position: absolute;
           }
@@ -207,7 +207,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: #ffffff;
+      color: #666;
 
       @include hover-focus {
         color: $navbar-light-hover-color;
@@ -229,11 +229,13 @@
   .navbar-toggler {
     color: $navbar-light-color;
     border-color: $navbar-light-toggler-border-color;
+
   }
 
   .navbar-toggler-icon {
     background-image: $navbar-light-toggler-icon-bg;
-   // background-color: black;
+    border-color: rgb(255,102,203);
+
 
   }
 

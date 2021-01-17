@@ -9,6 +9,7 @@ import { Location, PopStateEvent } from '@angular/common';
 })
 export class NavbarComponent implements OnInit {
     public isCollapsed = true;
+    public isNavbarCollapsed = true;
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
 
