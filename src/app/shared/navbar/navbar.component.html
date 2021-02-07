@@ -1,5 +1,4 @@
-<!--navbar component-->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-xl">
   <img  id="head-image" src="./assets/img/brand/MEDICO%20ENTETE.jpg">
   <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
           [attr.aria-expanded]="!isNavbarCollapsed" aria-controls="#navbar_local">
@@ -11,14 +10,14 @@
         <a class="nav-link" routerLink="/contact">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/jobs">Carriere</a>
+        <a class="nav-link" routerLink="/jobs">Carrieres</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/events">Evenement</a>
+        <a class="nav-link" routerLink="/events">Évènement </a>
       </li>
       <li class="nav-item">
 
-        <a class="nav-link" href="https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="assets/img/virus.png"> Infos de sécurité liées au COVID-19</a>
+        <a  target="_blank" rel="noopener noreferrer"  class="nav-link" href="https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="assets/img/virus.png"> Infos liées au COVID-19</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><span class="flag-icon flag-icon-tn flag-icon-squared"></span>
@@ -39,7 +38,7 @@
 </nav>
 <br>
 <br>
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" >
+<nav class="navbar navbar-expand-xl navbar-light bg-white sticky-top" >
     <button class="navbar-toggler"  (click)="isCollapsed = !isCollapsed"
             [attr.aria-expanded]="!isCollapsed" aria-controls="#collapse_target">
       <span class="fa fa-reorder" style="color:#53ba52; font-size:28px;"></span>
@@ -53,13 +52,19 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
-            Domaines <span class="caret"></span>
+            Produits <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="any">
             <li>  <a target="_blank" rel="noopener noreferrer"  href="http://www.medicoinst.com/index.htm" class="dropdown-item">Instrumentation</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.karlstorz.com/fr/fr/laparoscopy.htm" class="dropdown-item">Coelioscopie </a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.karlstorz.com/fr/fr/laparoscopy.htm" class="dropdown-item">Endoscopie</a></li>
             <li>  <a target="_blank" rel="noopener noreferrer"  href="" class="dropdown-item">Consommable</a></li>
             <li>  <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">Fabrication Tunisienne</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.sumetzberger.at/en/" class="dropdown-item">transport pneumatique</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://hauxlifesupport.de/en/" class="dropdown-item">Caisson hyperbare  <img src="assets/img/company/new-16.png"></a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.deenova.com/fr/homepage-fra/" class="dropdown-item">Pharmacie automatisée <img src="assets/img/company/new-16.png"></a></li>
+
+
+
           </ul>
         </li>
         <li class="nav-item">
@@ -80,16 +85,17 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
-            Telecharger <span class="caret"></span>
+            Téléchargement <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">MEDICO </a> </li>
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">Medico</a> </li>
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/catalogue.pdf"  class="dropdown-item">Nos catalogues </a> </li>
 
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/contact">
-            Nous Contact
+            Nous Contacter
           </a>
         </li>
       </ul>

@@ -52,7 +52,7 @@ import { EventsComponent } from './events/events.component';
     HomeModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: ''
+      apiKey: 'AIzaSyC6AGgACNTCt1GcBYWV39bz6LkYaG5ln-k'
     }),
   ],
   providers: [],
