@@ -4,9 +4,9 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ProfileComponent } from './profile/profile.component';
+import { ProfileComponent } from './services/profile.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
+import { LandingComponent } from './partenaire/landing.component';
 import { LoginComponent } from './login/login.component';
 import {LienUtilsComponent} from './lien-utils/lien-utils.component';
 import {UnderconstructionComponent} from './underconstruction/underconstruction.component';

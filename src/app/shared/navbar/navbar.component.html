@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-xl">
-  <img  id="head-image" src="./assets/img/brand/MEDICO%20ENTETE.jpg">
+  <img  style="outline: none;" routerLink="/home" id="head-image" src="./assets/img/brand/MEDICO%20ENTETE.jpg">
   <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
           [attr.aria-expanded]="!isNavbarCollapsed" aria-controls="#navbar_local">
     <span class="fa fa-reorder" style="color:#53ba52; font-size:28px;"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbar_local" [ngbCollapse]="isNavbarCollapsed" >
-    <ul class="navbar-nav navbar-nav-hover">
+    <ul class="navbar-nav navbar-nav-hover" style="padding-right: 3rem;">
       <li class="nav-item active">
         <a class="nav-link" routerLink="/contact">Contact</a>
       </li>
@@ -15,10 +15,7 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/events">Évènement </a>
       </li>
-      <li class="nav-item">
 
-        <a  target="_blank" rel="noopener noreferrer"  class="nav-link" href="https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="assets/img/virus.png"> Infos liées au COVID-19</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><span class="flag-icon flag-icon-tn flag-icon-squared"></span>
         </a>
@@ -43,8 +40,9 @@
             [attr.aria-expanded]="!isCollapsed" aria-controls="#collapse_target">
       <span class="fa fa-reorder" style="color:#53ba52; font-size:28px;"></span>
     </button>
-  <div class="collapse navbar-collapse" id="collapse_target" [ngbCollapse]="isCollapsed">
-      <ul class="navbar-nav navbar-nav-hover align-items-lg-center" >
+
+  <div class="collapse navbar-collapse justify-content-xl-center"  id="collapse_target" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav navbar-nav-hover" >
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/home">
             Accueil
@@ -69,7 +67,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon"  routerLink="/partenaire">
-            Partenaire
+            Partenaires
           </a>
         </li>
         <li class="nav-item">

@@ -7,17 +7,15 @@ import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
+import { LandingComponent } from './partenaire/landing.component';
+import { ProfileComponent } from './services/profile.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
-import { ServiceComponent } from './service/service.component';
 import { SavComponent } from './sav/sav.component';
-import { PartenaireComponent } from './partenaire/partenaire.component';
 import {HttpClientModule} from '@angular/common/http';
 import { LienUtilsComponent } from './lien-utils/lien-utils.component';
 import { UnderconstructionComponent } from './underconstruction/underconstruction.component';
@@ -35,9 +33,7 @@ import { EventsComponent } from './events/events.component';
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    ServiceComponent,
     SavComponent,
-    PartenaireComponent,
     LienUtilsComponent,
     UnderconstructionComponent,
     CarriereComponent,
