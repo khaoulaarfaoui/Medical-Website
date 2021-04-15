@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-xl">
   <img  style="outline: none;" routerLink="/home" id="head-image" src="./assets/img/brand/MEDICO%20ENTETE.jpg">
   <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
@@ -7,26 +8,26 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbar_local" [ngbCollapse]="isNavbarCollapsed" >
     <ul class="navbar-nav navbar-nav-hover" style="padding-right: 3rem;">
       <li class="nav-item active">
-        <a class="nav-link" routerLink="/contact">Contact</a>
+        <a class="nav-link" routerLink="/contact" i18n>Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/jobs">Carrieres</a>
+        <a class="nav-link" routerLink="/jobs" i18n>Carrieres</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/events">Évènement </a>
+        <a class="nav-link" routerLink="/events" i18n>Évènement </a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#"><span class="flag-icon flag-icon-tn flag-icon-squared"></span>
+      <li class="nav-item" >
+        <a class="nav-link"  href="/ar"><span class="flag-icon flag-icon-tn flag-icon-squared"></span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
+      <li class="nav-item" >
+        <a class="nav-link"  href="/en">
         <span class="flag-icon flag-icon-gb flag-icon-squared"></span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
+      <li class="nav-item" >
+        <a class="nav-link"  href="/fr">
         <span class="flag-icon flag-icon-fr flag-icon-squared"></span>
         </a>
       </li>
@@ -44,55 +45,51 @@
   <div class="collapse navbar-collapse justify-content-xl-center"  id="collapse_target" [ngbCollapse]="isCollapsed">
       <ul class="navbar-nav navbar-nav-hover" >
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/home">
+          <a class="nav-link nav-link-icon"  routerLink="/home" i18n>
             Accueil
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
+          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any" i18n>
             Produits <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="any">
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://www.medicoinst.com/index.htm" class="dropdown-item">Instrumentation</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.karlstorz.com/fr/fr/laparoscopy.htm" class="dropdown-item">Endoscopie</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="" class="dropdown-item">Consommable</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">Fabrication Tunisienne</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.sumetzberger.at/en/" class="dropdown-item">transport pneumatique</a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://hauxlifesupport.de/en/" class="dropdown-item">Caisson hyperbare  <img src="assets/img/company/new-16.png"></a></li>
-            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.deenova.com/fr/homepage-fra/" class="dropdown-item">Pharmacie automatisée <img src="assets/img/company/new-16.png"></a></li>
-
-
-
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://www.medicoinst.com/index.htm" class="dropdown-item" i18n>Instrumentation</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.karlstorz.com/fr/fr/laparoscopy.htm" class="dropdown-item"i18n>Endoscopie</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="" class="dropdown-item" i18n>Consommable</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item" i18n>Fabrication Tunisienne</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://www.sumetzberger.at/en/" class="dropdown-item" i18n>transport pneumatique</a></li>
+            <li>  <a target="_blank" rel="noopener noreferrer"  href="https://hauxlifesupport.de/en/" class="dropdown-item" i18n>Caisson hyperbare  <img src="assets/img/company/new-16.png"></a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/partenaire">
+          <a class="nav-link nav-link-icon"  routerLink="/partenaire" i18n>
             Partenaires
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/sav">
+          <a class="nav-link nav-link-icon"  routerLink="/sav" i18n>
             SAV
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/lienUtils">
+          <a class="nav-link nav-link-icon"  routerLink="/lienUtils" i18n>
             Liens utiles
           </a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any">
+          <a class="nav-link nav-link-icon dropdown-toggle" data-toggle="dropdown" data-target="any" i18n>
             Téléchargement <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item">Medico</a> </li>
-            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/catalogue.pdf"  class="dropdown-item">Nos catalogues </a> </li>
-
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/medico_fr.pdf" class="dropdown-item" i18n>Medico</a> </li>
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/catalogue.pdf"  class="dropdown-item" i18n>Nos catalogues </a> </li>
+            <li> <a target="_blank" rel="noopener noreferrer"  href="http://medicochirurgical.com/old/catalogues/Coloplast_2020-21-catalogue_bd.pdf"  class="dropdown-item" i18n>Catalogue COLOPLAST PORGES </a> </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon"  routerLink="/contact">
+          <a class="nav-link nav-link-icon"  routerLink="/contact" i18n>
             Nous Contacter
           </a>
         </li>

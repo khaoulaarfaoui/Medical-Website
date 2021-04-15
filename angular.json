@@ -4,15 +4,28 @@
   "newProjectRoot": "projects",
   "projects": {
     "argon-design-system-angular": {
+      "i18n": {
+        "sourceLocale": {
+          "baseHref": "/",
+          "code": "fr"
+        },
+        "locales": {
+          "en": "src/translate/messages.en.xlf",
+          "ar": "src/translate/messages.ar.xlf"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": false,
+            "aot": true,
             "outputPath": "dist/argon-design-system-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -46,9 +59,22 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "en": {
+              "localize": ["en"],
+              "baseHref": "/en/"
+
+            },
+            "ar": {
+              "localize": ["ar"],
+              "baseHref": "/ar/"
+
             }
+
           }
         },
+
+
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
@@ -57,6 +83,14 @@
           "configurations": {
             "production": {
               "browserTarget": "argon-design-system-angular:build:production"
+            },
+            "en": {
+              "browserTarget": "argon-design-system-angular:build:en"
+            },
+
+
+            "ar": {
+              "browserTarget": "argon-design-system-angular:build:ar"
             }
           }
         },
@@ -64,6 +98,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "argon-design-system-angular:build"
+
           }
         },
         "test": {

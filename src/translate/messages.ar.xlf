@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en-US" datatype="plaintext" original="ng2.template">
+        <body>
+
+            <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+                <source>Contact</source>
+                <target>اتصل بنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f0651394d35b2bf997e7c79cb4315bc41af86dd8" datatype="html">
+                <source>Carrieres</source>
+                <target>وظائف</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="35c1f2867638e2330bc7969b4d4f50d9fd3b4625" datatype="html">
+                <source>Évènement </source>
+                <target>فعالية</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">17</context>
+                </context-group>
+            </trans-unit>
+
+
+            <trans-unit id="41a5b65db16bd4196a85f4aeffb0e49969c4c39d" datatype="html">
+                <source>Instrumentation</source>
+                <target>الأجهزة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="64b237279127e04f3566c09391fb15d2a2a00d5b" datatype="html">
+                <source>Endoscopie</source>
+                <target>التنظير</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">58</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7135e74d4b958b57d056f6129b91a39ae6828279" datatype="html">
+                <source>Consommable</source>
+                <target>مستهلكات</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">59</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="fb3df37c7bd37da09c2023a06ab03b0089fd1bb0" datatype="html">
+                <source>Fabrication Tunisienne</source>
+                <target>التصنيع التونسي</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">60</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="820e75ef1d78938c281883f540fa251dd19b6a7f" datatype="html">
+                <source>transport pneumatique</source>
+                <target>النقل الهوائي</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">61</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f1d83c969acda84ed8ba8fd152ba3cb507b325b7" datatype="html">
+                <source>Caisson hyperbare  <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+                </source>
+                <target> غرفة الضغط العالي <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="12f5d83979043fabfc5b46d8aa1a2544c03c8133" datatype="html">
+                <source>Partenaires
+                </source>
+                <target>شركاء</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d892edc98900ce22f58b19153dc70b511664728d" datatype="html">
+                <source>sav
+                </source>
+                <target>مبيعات</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">71</context>
+                </context-group>
+            </trans-unit>
+
+            <trans-unit id="20c8a7de0e84af933aa7797b2a4630daa2317c35" datatype="html">
+                <source>
+Téléchargement <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>تحميل
+
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">82</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="57564e254c29711918d6a8374727c154bf799e97" datatype="html">
+                <source>Medico</source>
+                <target>Medico</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">86</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="19415f220f1e02307362b643a3b7417b39bab0b7" datatype="html">
+                <source>Nos catalogues </source>
+                <target>كتالوجاتنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">87</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4683e21816d8dbc78dcf337304cba484b2ebae04" datatype="html">
+                <source>Catalogue COLOPLAST PORGES </source>
+                <target>  COLOPLAST PORGES </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">88</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="016dc20a361b9fff7593e903bca50f5cea2a04ca" datatype="html">
+                <source>
+        Nous Contacter
+                </source>
+                <target>اتصل بنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">92</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5153c69e375853a0e583bbf557f743d0d36094bd" datatype="html">
+                <source>
+                Accueil
+                </source>
+                <target>إستقبال</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="90dfb25ad5bb4bfa7204a8e70f551a4c5271c04c" datatype="html">
+                <source>
+Produits <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>منتجات</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">53</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e746674b3b6a18bc46f4e0ed61145a79ba6320ec" datatype="html">
+                <source>Nos Catalogues</source>
+                <target>كتالوجاتنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">51</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="baff2bf04f7d87145a2520dbc57965093cad89b0" datatype="html">
+                <source>Nous Contacter</source>
+                <target>اتصل بنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="b8bdb2e26f0ba182c961b93260bd2d85aa0810c6" datatype="html">
+                <source>Carriéres</source>
+                <target>وظائف</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">72</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d63d2b9fec3078876f0fc0f00e01fd0871bf3395" datatype="html">
+                <source>NOS REFERENCES</source>
+                <target>مرجعياتنا</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">94</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ec524d93a2a9a97e90ac7d0aef7fe7e003cb8824" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Ministere de la santé publique<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                </source>
+                <target>وزارةالصحة العامة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">97</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="b534b91f8a3975258510b353d3d56d9c1768c17d" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Les Hopitaux Publics<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                </source>
+                <target>المستشفيات العامة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">101</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="eeff6c45e1284f0980cdaa71c556617349ddb8f0" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Ministère de la Défense Nationale<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                </source>
+                <target>وزارة الدفاع الوطني</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">104</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3d3721a856fac6b6327d94a29b845601f53f4150" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Les hôpitaux des forces de sécurité intérieure<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                </source>
+                <target>مستشفيات قوى الأمن الداخلي</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">107</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="395d34155e931deec90deb840df990321f102fac" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Les cliniques privées de tout le pays.<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                </source>
+                <target>  عيادات خاصة في جميع أنحاء البلاد.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">110</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e4e91a8883a2abeeef24689bd3d7e5802b463cf5" datatype="html">
+                <source>
+<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>les cabinets medicaux.<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+                </source>
+                <target> المكاتب الطبية.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">113</context>
+                </context-group>
+            </trans-unit>
+
+
+
+            <trans-unit id="7845c653c7fd946302470dce8ea6d729ba2bf23b" datatype="html">
+                <source> 31 Boulevard Hédi Saidi 1005 Tunis </source>
+                <target> 31 شارع الهادي السعيدي 1005 تونس</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">113</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6d8c535950e59c18676bca9abf6297be62687f95" datatype="html">
+                <source>5 place de Ali Zouaoui 1000 Tunis. </source>
+                <target>5 مكان علي الزواوي 1000 تونس.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">116</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="fa96cdc533ead1dba55a8854e56329c773d44647" datatype="html">
+                <source> 11 rue Beb el Aalouj 1000 Tunis </source>
+                <target> 11 شارع باب العلوج 1000 تونس</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">119</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="31937e7b42b087f2b5cbf0576f41c0b2a3ee734d" datatype="html">
+                <source> Bureau Sousse: </source>
+                <target>مكتب سوسة: </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">123</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="68170739c905ab36d81657e20497961914fc0385" datatype="html">
+                <source>  Bureau Sfax: </source>
+                <target>مكتب صفاقس:</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">127</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2d963cbee84b49d727dd515050c6abee299be2f3" datatype="html">
+                <source>Place Ben Achour, rue de l&apos;equipement, Tripoli, Libye
+
+                </source>
+                <target>ساحة بن عاشور ، شارع المعدات ، طرابلس ، ليبيا
+
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">132</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2a78b6124bf65d502b999111980f0a8a7c1ffd0b" datatype="html">
+                <source>
+Fortement présents dans le bloc opératoire dans différentes spécialités nos produits accompagnent
+Les professionnels de la santé et  les patients aussi bien dans le domaine de l&apos;équipement que dans le consommable médical.</source>
+                <target>تتواجد منتجاتنا بقوة في غرفة العمليات في مختلف التخصصات، ومنتجاتنا ترافق
+أخصائيو الرعاية الصحية والمرضى في مجال المعدات وكذلك المواد الاستهلاكية الطبية</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/home/home.component.html</context>
+                    <context context-type="linenumber">152</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3130e0182c419f2244a4179feac38ec29bf5c060" datatype="html">
+                <source>PARTENAIRES</source>
+                <target>شركاء</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/partenaire/landing.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="22efe0ed2d87188a5c7a6aa348063ece01e5018c" datatype="html">
+                <source>STAFF TECHNIQUE</source>
+                <target>الفريق التقني</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">24</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="9aec6540eef1b28ac7744370efa5c6f88e498637" datatype="html">
+                <source>medico.devis@gnet.tn</source>
+                <target>medico.devis@gnet.tn</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="0276173e84d834a03e04470dcae2db903324f626" datatype="html">
+                <source>medico.technique@gnet.tn</source>
+                <target>medico.technique@gnet.tn</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3647076f1ef1316b0756cab4972adbd574f82c31" datatype="html">
+                <source>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Responsable technique avec 30 ans d&apos;expérience dans la technologie biomédicale <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Tel: 58 454 908 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>المدير الفني مع 30 عاما من الخبرة في مجال التكنولوجيا الطبية الحيوية</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="65358838d0986e001627b4348853a2e1120712c1" datatype="html">
+                <source> Technicien avec 23 ans d&apos;expérience dans la technologie biomédicale. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Tel: 58 454 909 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>فني مع 23 عاما من الخبرة في مجال التكنولوجيا الطبية الحيوية.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="50b64d2cf57538a8a6d9bf6a6f885916687c3bb3" datatype="html">
+                <source>Ingenieur adjoint bio-medical avec 25 ans d&apos;expérience dans la technologie biomédicale.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Tel: 58 545 455 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target> مهندس طب حيوي بخبرة 25 عامًا في مجال التكنولوجيا الطبية الحيوية.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">88</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1a93611eac52bce9acb5289cf83055e6f6cca1a6" datatype="html">
+                <source>
+Diplome: Licence en Systèmes embarqués et mobiles avec 7 ans d&apos;experience.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Tel: 58 454 921<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                </source>
+                <target>بكالوريوس في الأنظمة المدمجة والمتنقلة مع خبرة 7 سنوات.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/signup/signup.component.html</context>
+                    <context context-type="linenumber">115</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="00a3d4fd9e5fb70f5bf2cb7c811805b64768d699" datatype="html">
+                <source>LIENS UTILES</source>
+                <target>روابط مفيدة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/lien-utils/lien-utils.component.html</context>
+                    <context context-type="linenumber">4</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8b9d464abd2005126236b481761a5b972120b354" datatype="html">
+                <source>ADRESSE SIÉGE: </source>
+                <target>عنوان المقر الرئيسي:</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4e7b99511585b251ecf41259773366f36dc05cab" datatype="html">
+                <source>  31 Boulevard Hédi Saidi 1005 Tunis </source>
+                <target> 31 شارع الهادي السعيدي 1005 تونس</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">10</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ee8f437cbeaadfe145731f7b7a45ae81adaa037f" datatype="html">
+                <source>SFAX:</source>
+                <target>صفاقس:</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d9dacc33bd2038e8bd75b5995c4aa6aad200511f" datatype="html">
+                <source>Bureau Sfax </source>
+                <target>مكتب صفاقس</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="61abdf1337d58c396d35a11c87be056399ab583d" datatype="html">
+                <source>SOUSSE: </source>
+                <target>سوسة :</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">19</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="c5ef6fe136745382a824593fff552976a04a41c2" datatype="html">
+                <source>  Bureau Sousse </source>
+                <target>مكتب سوسة </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">20</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f759dd39e44c111314c3c1f3d9658bb37e51e7ad" datatype="html">
+                <source>Staff Commercial:</source>
+                <target>الطاقم التجاري:</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="12bbd0e464676bb5d96d947f47650fcf8d6aa855" datatype="html">
+                <source>  Comptoir commercial: </source>
+                <target>المحطة التجارية </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">61</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2ecff128b1f960c6846deb5fd4c85f06b2b913e0" datatype="html">
+                <source>Demandes offres - Devis</source>
+                <target>طلب عروض - تسعيرة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">79</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f37eec7ea25273c0ffb8b68591a9d9fd0f932c7e" datatype="html">
+                <source>
+Vous souhaitez nous contacter ?
+                </source>
+                <target>هل ترغب في الاتصال بنا؟</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">200</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ac08e1012af7fbe665059246163fc39e53e220ee" datatype="html">
+                <source>
+L&apos;équipe Medico est toujours à votre écoute.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Vous pouvez nous contacter directement par email, téléphone ou courrier.
+                </source>
+                <target>فريقنا  تحت تصرفك دائمًا
+يمكنك الاتصال بنا مباشرة عن طريق البريد الإلكتروني أو الهاتف أو البريد.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">203</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="01afa66a69c6cf5671972200a4e4e2720815b344" datatype="html">
+                <source>Nom</source>
+                <target>أسم
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">114</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5a2517ff9f97c5493b1fed73eb32bfa20e007b8b" datatype="html">
+                <source>
+Le champs nom est obligatoire
+                </source>
+                <target> الاسم مطلوب</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">116</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6c7d8933b53591fc367c28779a9b0d86f544c805" datatype="html">
+                <source>Etablissement</source>
+                <target>مؤسسة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">125</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="215db30116fabbe01a8be731293abfebc2a4cd7a" datatype="html">
+                <source>
+Le champs etablissement est obligatoire
+                </source>
+                <target>مؤسسة مطلوبة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">128</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6f5054e61dbe2fca2d337f0b5115e97976cd2889" datatype="html">
+                <source>Fonction</source>
+                <target>وظيفة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">137</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7b9e0b261aa814d88c6b1d2b3fea2eb1a3d8ad59" datatype="html">
+                <source>
+Le champs fonction est obligatoire
+                </source>
+                <target>الوظيفة مطلوبة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">139</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="71134e1f8e386768460814d4d54b826ea9e1790a" datatype="html">
+                <source>Adresse</source>
+                <target>العنوان</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">148</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d67bf31761428551aac3e54420c4abdd5d8d4f2a" datatype="html">
+                <source>Le champs addresse est obligatoire
+                </source>
+                <target>العنوان مطلوب</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">150</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+                <source>Email</source>
+                <target>بريد إلكتروني</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">159</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="a44a6e30848de4d5020139eaf64764338a1abdb0" datatype="html">
+                <source>Le champs email est obligatoire</source>
+                <target>البريد الالكتروني مطلوب</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">163</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8a54d723e4e67a81d22de2704f11f586245a72f4" datatype="html">
+                <source>un email doit etre sous la forme de xyz@xyz.com</source>
+                <target>يجب أن يكون البريد الإلكتروني بصيغة xyz@xyz.com</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">164</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ccac601bf473fa28c9ac46794f1cd40542f74347" datatype="html">
+                <source>Message</source>
+                <target>الرسالة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">172</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="46c8b092603e1486d2c0c55c1be9750f8879804c" datatype="html">
+                <source>Envoyer </source>
+                <target>ارسل </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/login/login.component.html</context>
+                    <context context-type="linenumber">178</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="23bd4a26d577a228cdd4713e8e0862782d6f44d1" datatype="html">
+                <source>
+Liens utiles
+                </source>
+                <target>روابط مفيدة</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/shared/navbar/navbar.component.html</context>
+                    <context context-type="linenumber">76</context>
+                </context-group>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -16,12 +16,13 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { SavComponent } from './sav/sav.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule} from '@angular/common/http';
 import { LienUtilsComponent } from './lien-utils/lien-utils.component';
 import { UnderconstructionComponent } from './underconstruction/underconstruction.component';
 import {AgmCoreModule} from '@agm/core';
 import { CarriereComponent } from './carriere/carriere.component';
 import { EventsComponent } from './events/events.component';
+
 
 
 @NgModule({
@@ -48,10 +49,12 @@ import { EventsComponent } from './events/events.component';
     HomeModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: ''
-    }),
+      apiKey: 'AIzaSyC6AGgACNTCt1GcBYWV39bz6LkYaG5ln-k'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
+

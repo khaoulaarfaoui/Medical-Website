@@ -6,18 +6,18 @@
         <p  style="color: black !important;">
           <span class="row row-grid">
              <div class="col-lg-4">
-          <span style="color: #53BA52"> <i class="ni ni-pin-3"></i>  ADRESSE SIÉGE: <br></span>
-          31 Boulevard Hédi Saidi 1005 Tunis<br>
+          <span style="color: #53BA52"> <i class="ni ni-pin-3" i18n>ADRESSE SIÉGE: </i>  <br></span>
+         <span i18n>  31 Boulevard Hédi Saidi 1005 Tunis </span><br>
           <span style="color: #666666">Tel: <strong>71 899 750 LG / 31 317 100 LG </strong></span><br>
              </div>
              <div class="col-lg-4">
-               <span style="color: #53BA52"> <i class="ni ni-pin-3"></i>  SFAX: <br></span>
-         Bureau Sfax<br>
+               <span style="color: #53BA52"> <i class="ni ni-pin-3" i18n>SFAX:</i>   <br></span>
+        <span i18n>Bureau Sfax </span> <br>
           <span style="color: #666666">Tel: <strong>Tel: 58 454 923 - 58 454 913</strong></span><br>
              </div>
              <div class="col-lg-4">
-            <span style="color: #53BA52"> <i class="ni ni-pin-3"></i>  SOUSSE: <br></span>
-              Bureau Sousse<br>
+            <span style="color: #53BA52"> <i class="ni ni-pin-3" i18n>SOUSSE: </i>  <br></span>
+             <span i18n>  Bureau Sousse </span> <br>
           <span style="color: #666666">Tel: <strong>Tel: 58 454 912 - 58 454 904</strong></span><br>
              </div>
             </span>
@@ -28,26 +28,26 @@
             <div class="card card-lift--hover">
               <div class="card-body py-4">
                 <strong style="color: #53BA52">
-                  <i class="ni ni-notification-70"></i>
-                  Staff commercial: </strong>
+                  <i class="ni ni-notification-70" i18n>Staff Commercial:</i>
+                 </strong>
                 <br> <br>
-                <strong> Khaled AZOUZ: </strong><br>
+                <strong > Khaled AZOUZ: </strong><br>
                 <div class="container">
                   <span style="color: #666666"> Tel: 58 554 000 </span>
                   <a href="mailto:medico.khaled@gnet.tn">medico.khaled@gnet.tn </a>
                 </div>
 
-                 <strong> Olfa AZOUZ: </strong><br>
+                 <strong > Olfa AZOUZ: </strong><br>
                   <div class="container">
                   <span style="color: #666666"> Tel: 58 545 454 </span><br>
                   <a href="mailto:medico.olfa@gnet.tn" >medico.olfa@gnet.tn </a>
                   </div>
-                 <strong> Naoufel RADDADI: </strong><br>
+                 <strong > Naoufel RADDADI: </strong><br>
                 <div class="container">
                 <span style="color: #666666"> Tel: 58 454 901 </span>
                   <a href="mailto:medico.naoufel@gnet.tnn">  medico.naoufel@gnet.tn </a>
                 </div>
-                <strong> Houssine ZAGHDOUDI  : </strong><br>
+                <strong > Houssine ZAGHDOUDI  : </strong><br>
                 <div class="container">
                   <span style="color: #666666"> Tel: 58 545 455  </span><br>
                 <a href="mailto:medico.comptoir@gnet.tn">medico.devis@gnet.tn </a>
@@ -58,9 +58,9 @@
           <div class="col-lg-4" >
             <div class="card card-lift--hover" >
               <div class="card-body py-4" >
-                <strong style="color: #53BA52"> <i class="ni ni-delivery-fast"></i>  Comptoir commercial </strong> <br>
+                <strong style="color: #53BA52"> <i class="ni ni-delivery-fast" i18n>  Comptoir commercial: </i>  </strong> <br>
                 <br>
-                 <strong>Slim AZOUZ : </strong>  <br>
+                 <strong >Slim AZOUZ : </strong>  <br>
                 <div class="container">
                 <span style="color: #666666"> Tel: 58 554 554 </span><br>
                   <a href="mailto:medico.comptoir@gnet.tn">medico.comptoir@gnet.tn</a>
@@ -76,7 +76,7 @@
           <div class="col-lg-4">
             <div class="card card-lift--hover">
               <div class="card-body py-4" >
-                <strong style="color: #53BA52"> <i class="ni ni-paper-diploma"></i>  Demandes offres - Devis  </strong> <br>
+                <strong style="color: #53BA52"> <i class="ni ni-paper-diploma" i18n>Demandes offres - Devis</i>    </strong> <br>
                 <br>
 
                  <strong> Houssine ZAGHDOUDI  : </strong><br>
@@ -111,9 +111,9 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-badge"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Nom" name="name" ngModel  #name="ngModel" type="text" (focus)="focus2=true" (blur)="focus2=false" required>
+                    <input class="form-control" i18n-placeholder placeholder="Nom" name="name" ngModel  #name="ngModel" type="text" (focus)="focus2=true" (blur)="focus2=false" required>
                   </div>
-                  <div class="alert alert-danger" *ngIf="name.invalid && name.touched">
+                  <div class="alert alert-danger" i18n *ngIf="name.invalid && name.touched">
                     Le champs nom est obligatoire
                   </div>
                 </div>
@@ -122,10 +122,10 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-shop"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Etablissement" name="etablissement" ngModel  #etablissement="ngModel" type="text" (focus)="focus3=true" (blur)="focus3=false" required>
+                    <input class="form-control" i18n-placeholder placeholder="Etablissement" name="etablissement" ngModel  #etablissement="ngModel" type="text" (focus)="focus3=true" (blur)="focus3=false" required>
 
                   </div>
-                  <div class="alert alert-danger" *ngIf="etablissement.invalid && etablissement.touched">
+                  <div class="alert alert-danger" i18n *ngIf="etablissement.invalid && etablissement.touched">
                     Le champs etablissement est obligatoire
                   </div>
                 </div>
@@ -134,9 +134,9 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-badge"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Fonction" name="fonction" ngModel  #fonction="ngModel" type="text" (focus)="focus4=true" (blur)="focus4=false" required>
+                    <input class="form-control" i18n-placeholder placeholder="Fonction" name="fonction" ngModel  #fonction="ngModel" type="text" (focus)="focus4=true" (blur)="focus4=false" required>
                   </div>
-                  <div class="alert alert-danger" *ngIf="fonction.invalid && fonction.touched">
+                  <div class="alert alert-danger" i18n *ngIf="fonction.invalid && fonction.touched">
                     Le champs fonction est obligatoire
                   </div>
                 </div>
@@ -145,9 +145,9 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-square-pin"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Adresse" type="text" name="addresse" ngModel  #addresse="ngModel" (focus)="focus5=true" (blur)="focus5=false" required>
+                    <input class="form-control" i18n-placeholder placeholder="Adresse" type="text" name="addresse" ngModel  #addresse="ngModel" (focus)="focus5=true" (blur)="focus5=false" required>
                   </div>
-                  <div class="alert alert-danger" *ngIf="addresse.invalid && addresse.touched">
+                  <div class="alert alert-danger"  i18n *ngIf="addresse.invalid && addresse.touched">
                     Le champs addresse est obligatoire
                   </div>
                 </div>
@@ -156,12 +156,12 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Email" type="email" name="email" ngModel required #email="ngModel"   pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"
+                    <input class="form-control" i18n-placeholder placeholder="Email" type="email" name="email" ngModel required #email="ngModel"   pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"
                            (focus)="focus6=true" (blur)="focus6=false" >
                   </div>
                   <div>
-                    <span class="alert alert-danger" *ngIf="email.touched && email.errors?.required">Le champs email est obligatoire</span>
-                    <span class="alert alert-danger" *ngIf="email.touched && email.errors?.pattern">un email doit etre sous la forme de xyz@xyz.com</span>
+                    <span class="alert alert-danger" i18n *ngIf="email.touched && email.errors?.required">Le champs email est obligatoire</span>
+                    <span class="alert alert-danger" i18n *ngIf="email.touched && email.errors?.pattern">un email doit etre sous la forme de xyz@xyz.com</span>
                   </div>
                 </div>
                   <div class="form-group mb-3" [ngClass]="{'focused':focus1===true}">
@@ -169,17 +169,17 @@
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="ni ni-single-copy-04"></i></span>
                       </div>
-                      <textarea class="form-control" placeholder="Message"  name="messages" ngModel required #messages="ngModel" (focus)="focus1=true" (blur)="focus1=false" > </textarea>
+                      <textarea i18n-placeholder class="form-control" placeholder="Message"  name="messages" ngModel required #messages="ngModel" (focus)="focus1=true" (blur)="focus1=false" > </textarea>
                     </div>
                 </div>
                 <br>
                 <div class="row mt-3">
                   <div class="col-6 text-left">
-                      <button class="btn-success" type="submit" [disabled]="!contactForm.valid">Envoyer </button>
+                      <button class="btn-success" type="submit" [disabled]="!contactForm.valid" i18n>Envoyer </button>
                   </div>
                 </div>
               </form>
-            <div class="alert alert-success alert-dismissible" *ngIf="sent">Sent</div>
+            <div class="alert alert-success alert-dismissible" *ngIf="sent" i18n>Sent</div>
             </div>
           </div>
        <!--
@@ -197,10 +197,10 @@
 -->
         </div>
         <div class="col-lg-4  pt-150">
-          <h1 class="text-white font-weight-light">
+          <h1 class="text-white font-weight-light" i18n>
             Vous souhaitez nous contacter ?
           </h1>
-          <p  style="color: black !important;">
+          <p  style="color: black !important;" i18n>
             L'équipe Medico est toujours à votre écoute.<br>
             Vous pouvez nous contacter directement par email, téléphone ou courrier.
           </p>
