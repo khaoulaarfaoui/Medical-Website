@@ -9,7 +9,6 @@
     "build": "ng build",
     "build:en": "ng build --configuration=en",
     "build:ar": "ng build --configuration=ar",
-
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -32,6 +31,7 @@
     "@ng-bootstrap/ng-bootstrap": "6.0.0",
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^5.0.0",
+    "bootstrap-cli": "^1.0.0",
     "flag-icon-css": "^3.5.0",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "moment": "^2.24.0",
